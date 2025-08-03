@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit config
+.streamlit/secrets.toml
+
+# Environment files
+.env
+*.env
+
+# Data files
+*.csv
+*.tsv
+*.pkl
+*.xlsx
+*.h5
+
+# Logs
+*.log
+
+# Mac/Windows hidden files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# PyInstaller
+*.spec
+dist/
+build/
