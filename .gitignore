@@ -16,7 +16,7 @@ ENV/
 .streamlit/secrets.toml
 
 # Environment files
-.env
+../.env
 *.env
 
 # Data files

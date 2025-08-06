@@ -1,8 +1,8 @@
 # ui.py
-from data import get_latest_price
-from analysis import compute_indicators
-from sentiment import get_news_sentiment
-from data import get_price_data
+from StockBot.core.data import get_latest_price
+from StockBot.core.analysis import compute_indicators
+from StockBot.core.sentiment import get_news_sentiment
+from StockBot.core.data import get_price_data
 
 def cli_bot():
     print("🤖 Welcome to the Indian Stock Analysis Bot!")
